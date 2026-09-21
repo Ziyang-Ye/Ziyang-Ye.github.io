@@ -36,7 +36,7 @@ Together, these directions move from generating plausible futures, to simulating
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/live_paper.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/live_teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LIVE: Long-horizon Interactive Video World Modeling](https://doi.org/10.48550/arXiv.2602.03747)
@@ -44,9 +44,6 @@ Together, these directions move from generating plausible futures, to simulating
 Junchao Huang, **Ziyang Ye**, Xinting Hu, Tianyu He, Guiyu Zhang, Shaoshuai Shi, Jiang Bian, Li Jiang
 
 **Accepted at ICML 2026**
-- Addresses error accumulation in autoregressive video world models, which degrades generation quality over long horizons
-- Uses forward-reverse cycle consistency and progressive training to improve robustness under self-generated context
-- Reports stable video generation on long rollouts beyond the training horizon
 
 </div>
 </div>
@@ -59,9 +56,6 @@ WorldCast: Distributed Multiplayer World Models
 **Ziyang Ye**, Junchao Huang, Evelyn Zhang, Zhihao Xie, Ruicheng Zhang, Boyao Han, Litao Ban, Ziye Wang, Xinting Hu, Shaoshuai Shi, Zhuotao Tian, Li Jiang
 
 **Under review at ICLR 2027**
-- Extends interactive video world models from a single player to a shared multiplayer scene
-- Uses scene-time synchronization, cross-player communication, and shared latent memory with private-view decoding
-- Targets cross-view consistency when multiple players act on the same world simultaneously
 
 </div>
 </div>
@@ -74,9 +68,6 @@ Iso-WAM: Rethinking Representation Forcing in World Action Models
 Zhihao Xie, Yuanhao Wang, Jingxin Wang, Yuxin Cheng, **Ziyang Ye**, Haobo Li, Junchao Huang, Junfeng Wu, Xinting Hu, Li Jiang
 
 **Under review at ICLR 2027**
-- Identifies a misalignment in world-action models: pixel-level future prediction entangles physical task dynamics with task-irrelevant appearance, so policies misread appearance shifts as state changes under OOD conditions
-- Builds a dynamic information bottleneck that isolates actionable dynamics, aligning learnable query tokens in the action stream with dual latent action targets from DINOv3 (semantic transitions) and VGGT (spatio-temporal geometric transitions)
-- Predicts a control-consistent future *change* rather than a visually consistent state, outperforming state-of-the-art WAMs on LIBERO-Plus and real-robot OOD evaluation
 
 </div>
 </div>
