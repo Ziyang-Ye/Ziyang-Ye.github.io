@@ -82,7 +82,6 @@ Zhihao Xie, Yuanhao Wang, Jingxin Wang, Yuxin Cheng, **Ziyang Ye**, Haobo Li, Ju
   <div style="color:#666; margin: 2px 0;">Research Assistant &nbsp;|&nbsp; Advisor: <a href="https://llijiang.github.io/">Prof. Li Jiang</a> &nbsp;|&nbsp; Shenzhen, China</div>
   <ul style="margin-top: 6px;">
     <li><strong>LIVE</strong> (ICML 2026): Contributed to implementing the cycle-consistency training loop for a Causal DiT, including forward-rollout scheduling, temporal reversal of frames and controls, reverse-causal masking, and flow-matching loss integration; conducted training and evaluation on RealEstate10K, UE Engine, and Minecraft.</li>
-    <li><strong>GeometryWAM — World Action Model for Embodied Manipulation</strong>: Designed a world-action DiT using privileged depth and 3D targets during training, with asymmetric attention masking policy queries from geometry inputs at deployment.</li>
     <li><strong>WorldCast</strong> (ICLR 2027 submission, first author): Led a distributed multiplayer world model using scene-time synchronization, cross-player communication, shared latent memory, and private-view decoding to maintain cross-view consistency under simultaneous actions.</li>
     <li><strong>Iso-WAM</strong> (ICLR 2027 submission): Contributed to a world-action model that isolates action-induced dynamics from visual appearance through a dynamic information bottleneck over DINOv3 and VGGT latent action targets, improving OOD robustness on LIBERO-Plus and real robots.</li>
   </ul>

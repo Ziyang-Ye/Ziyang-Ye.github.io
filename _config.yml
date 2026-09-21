@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ziyang Ye"
-description              : "World Model<br>Generative Model<br>Multimodal Learning<br>Embodied AI"
+description              : "World Model<br>Generative Model<br>Embodied AI"
 repository               : "Ziyang-Ye/Ziyang-Ye.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Ziyang-Ye"
+  github           : # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
