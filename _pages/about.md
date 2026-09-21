@@ -51,6 +51,36 @@ Junchao Huang, **Ziyang Ye**, Xinting Hu, Tianyu He, Guiyu Zhang, Shaoshuai Shi,
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2027 Under Review</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+WorldCast: Distributed Multiplayer World Models
+
+**Ziyang Ye**, Junchao Huang, Evelyn Zhang, Zhihao Xie, Ruicheng Zhang, Boyao Han, Litao Ban, Ziye Wang, Xinting Hu, Shaoshuai Shi, Zhuotao Tian, Li Jiang
+
+**Under review at ICLR 2027**
+- Extends interactive video world models from a single player to a shared multiplayer scene
+- Uses scene-time synchronization, cross-player communication, and shared latent memory with private-view decoding
+- Targets cross-view consistency when multiple players act on the same world simultaneously
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2027 Under Review</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Iso-WAM: Rethinking Representation Forcing in World Action Models
+
+Zhihao Xie, Yuanhao Wang, Jingxin Wang, Yuxin Cheng, **Ziyang Ye**, Haobo Li, Junchao Huang, Junfeng Wu, Xinting Hu, Li Jiang
+
+**Under review at ICLR 2027**
+- Identifies a misalignment in world-action models: pixel-level future prediction entangles physical task dynamics with task-irrelevant appearance, so policies misread appearance shifts as state changes under OOD conditions
+- Builds a dynamic information bottleneck that isolates actionable dynamics, aligning learnable query tokens in the action stream with dual latent action targets from DINOv3 (semantic transitions) and VGGT (spatio-temporal geometric transitions)
+- Predicts a control-consistent future *change* rather than a visually consistent state, outperforming state-of-the-art WAMs on LIBERO-Plus and real-robot OOD evaluation
+
+</div>
+</div>
+
 # 📖 Education
 - *2023.09 - 2027.06 (Expected)*, Bachelor of Engineering in Software Engineering, Jilin University, China. **Average Score: 88.68 / 100**
 
@@ -62,7 +92,8 @@ Junchao Huang, **Ziyang Ye**, Xinting Hu, Tianyu He, Guiyu Zhang, Shaoshuai Shi,
   <ul style="margin-top: 6px;">
     <li><strong>LIVE</strong> (ICML 2026): Contributed to implementing the cycle-consistency training loop for a Causal DiT, including forward-rollout scheduling, temporal reversal of frames and controls, reverse-causal masking, and flow-matching loss integration; conducted training and evaluation on RealEstate10K, UE Engine, and Minecraft.</li>
     <li><strong>GeometryWAM — World Action Model for Embodied Manipulation</strong>: Designed a world-action DiT using privileged depth and 3D targets during training, with asymmetric attention masking policy queries from geometry inputs at deployment.</li>
-    <li><strong>Multi-Player Interactive World Model</strong> (ongoing): Exploring a multi-player extension using scene-time synchronization, cross-player communication, shared latent memory, and private-view decoding to study cross-view consistency under simultaneous actions.</li>
+    <li><strong>WorldCast</strong> (ICLR 2027 submission, first author): Led a distributed multiplayer world model using scene-time synchronization, cross-player communication, shared latent memory, and private-view decoding to maintain cross-view consistency under simultaneous actions.</li>
+    <li><strong>Iso-WAM</strong> (ICLR 2027 submission): Contributed to a world-action model that isolates action-induced dynamics from visual appearance through a dynamic information bottleneck over DINOv3 and VGGT latent action targets, improving OOD robustness on LIBERO-Plus and real robots.</li>
   </ul>
 </div>
 
