@@ -1,0 +1,9 @@
+<script src="assets/js/main.min.js"></script>
+
+{% include analytics.html %}
+{% include fetch_google_scholar_stats.html %}
+
+<!-- MapMyVisitors：只统计访问，暂不在页面上显示。要显示时去掉外层 div 的 style 和 inert 即可 -->
+<div aria-hidden="true" inert style="position:absolute; left:-9999px; top:0; width:300px; height:300px; overflow:hidden;">
+  <script async type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=7dkDLlCH8yuaMdUEt9dPeSweQdTgdm6tGUzV-sCnQyk"></script>
+</div>
